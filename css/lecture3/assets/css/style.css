@@ -7,19 +7,15 @@ h1:nth-last-child(20){
 h1:nth-last-child(15){
     background-color: var(--color);  
 }
-
 div:nth-child(12) h1:nth-of-type(4){
     background-color: var(--color);  
 }
-
 h1:nth-child(16) {
     background-color: var(--color);   
 }
-  
 section p:nth-child(2){
     background-color: var(--color);  
 }
-
 header div span:nth-of-type(2) h1:nth-of-type(2) {
     background-color: var(--color);  
 }
@@ -37,4 +33,4 @@ section +span h1:nth-child(3){
 }
 section > h1:nth-of-type(2) {
     background-color: var(--color);  
-  }
+}
