@@ -1,0 +1,61 @@
+.box{
+    height: 200px;
+    background-color: aliceblue;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+img{
+    height: 200px;
+    width: 300px;
+    display: block;
+    /* text-align: center; */
+    margin: auto;
+}
+.font-size{
+    font-size: large;
+    font-size: larger;
+    font-size: medium;
+    font-size: small;
+    font-size: x-large;
+    font-size: x-small;
+    font-size: xx-large;
+    font-size: xx-small;
+    font-size: 16px;
+    font-size: 32px;
+    font-size: 1rem;
+    font-size: 2rem;
+    font-size: 1em;
+    font-size: 2em;
+    font-family: 'Courier New', Courier, monospace;
+    font-family: "Creepster", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: small-caps;
+}
+
+.border{
+    margin-top: 50px;
+    height: 100px;
+    width: 200px;
+    /* border:1px solid black; */
+    border-top: 2px dashed black;
+    border-left: 2px dotted black;
+    border-right: 2px solid black;
+    border-bottom: 10px double black;
+    border:20px ridge black;
+    border:20px groove black;
+    border:20px outset black;
+    border:20px inset black;
+    outline: 20px solid red;
+    outline: none;
+    outline-offset: 20px;
+}
+
+.box-shadow{
+    margin-top: 50px;
+    height: 100px;
+    width: 200px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 10px grey;
+}
