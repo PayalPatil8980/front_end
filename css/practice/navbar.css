@@ -8,7 +8,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(55, 196, 137);
+    background:linear-gradient(to left , rgb(33, 156, 109),rgb(45, 153, 111),rgb(76, 148, 120),rgb(154, 165, 161))
 }
 .img{
     height: 100px;
@@ -33,4 +33,10 @@
 .menu li a:hover{
     color: rgb(4, 83, 57);
     transition: .10s;
+}
+.box{
+    margin-top:20px;
+    height: 50vh;
+    width: 100%;
+    background-color: pink;
 }
