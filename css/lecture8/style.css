@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex{
+    display: block;  
+}
+.maindiv{
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(52, 111, 163);
+    display: block;
+    background-clip: text;
+    color: transparent;
+}
+.box{
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    display: block;
+}
+.box-1{
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(31, 31, 202);
+    display: block;
+}
+.inline{
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    display: inline-block;
+}
+.box-model{
+    height: 100px;
+    width: 200px;
+    background-color: rgb(63, 141, 11);
+    
+}
+.box-model1{
+    margin-top: -20px;
+    margin-right: -100px;
+    height: 100px;
+    width: 200px;
+    background-color: rgb(177, 83, 21);
+    
+}
+.image{
+    height: 200px;
+    width: 200px;
+    background-image: url(./download.jfif),url(./image2.jpg);
+    background-blend-mode: color;
+}
