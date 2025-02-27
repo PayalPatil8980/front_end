@@ -1,0 +1,43 @@
+.mainbox{
+    border: 2px solid black;
+    display: flex;
+    height: 500px;
+    width: 1300px;
+}
+.mainbox > div{
+    /* flex-grow: 10; */
+    flex-basis: 100px;
+    /* background-color: pink; */
+}
+.mainbox >div:nth-child(1){
+    /* flex-grow: 10;
+    flex-shrink: 10; */
+    background-color: gray;
+}
+.mainbox >div:nth-child(2){
+    background-color: rgb(190, 24, 24);
+}
+.mainbox >div:nth-child(3){
+    background-color: rgb(22, 199, 6);
+}
+.mainbox >div:nth-child(4){
+    background-color: rgb(77, 27, 124);
+}
+.mainbox >div:nth-child(5){
+    background-color: rgb(40, 143, 92);
+}
+.mainbox >div:nth-child(6){
+    background-color: rgb(165, 24, 94);
+}
+.mainbox >div:nth-child(7){
+    background-color: rgb(175, 209, 25);
+}
+.mainbox >div:nth-child(8){
+    background-color: rgb(121, 55, 55);
+}
+.mainbox >div:nth-child(9){
+    background-color: rgb(16, 107, 129);
+}
+.mainbox >div:nth-child(10){
+    background-color: rgb(114, 247, 52);
+}
