@@ -89,13 +89,13 @@
     align-items: center;
     flex-wrap: wrap;
     flex-direction: row;
-    flex-direction: row-reverse;
-    flex-direction: column;
-    flex-direction: column-reverse;
-    align-items: end;
-    align-items: start;
-    align-items: center;
-    flex-flow:row wrap;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-r everse; */
+    /* align-items: end; */
+    /* align-items: start; */
+    /* align-items: center; */
+    /* flex-flow:row wrap; */
   
     /* overflow: hidden ; */
   }
