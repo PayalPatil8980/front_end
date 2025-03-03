@@ -41,3 +41,11 @@
 .mainbox >div:nth-child(10){
     background-color: rgb(114, 247, 52);
 }
+
+
+.payal{
+    height: 100px;
+    width: 200px;
+    background-color: black;
+    visibility:visible;
+}

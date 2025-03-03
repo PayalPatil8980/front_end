@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+nav{
+    padding: 20px;
+    background-color: chocolate;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    gap: 40px;
+    
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 20px;
+    color: white;
+}
+a:hover{
+    color: rgb(62, 180, 165);
+}
+.box-1{
+    margin-top: 100px;
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    position: sticky;
+    z-index: -60px;
+}
+.box-2{
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    margin-top: -30px;
+    position: sticky;
+}
