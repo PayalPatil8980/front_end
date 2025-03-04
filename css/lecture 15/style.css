@@ -1,0 +1,110 @@
+.box{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.absolute{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(41, 117, 128);
+    border: 1px solid black;
+    position: absolute;
+}
+.absolute:nth-child(1){
+    left: 0;
+    top: 0;
+}
+.absolute:nth-child(7){
+    left: 0;
+    bottom: 0;
+}
+.absolute:nth-child(3){
+    right: 0;
+    top: 0;
+}
+.absolute:nth-child(5){
+    inset: 0;
+    margin: auto;
+}
+.absolute:nth-child(4){
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.absolute:nth-child(2){
+    left: 0;
+    top: 0;
+    right: 0;
+    margin: auto;  
+}
+.absolute:nth-child(4){
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.absolute:nth-child(6){
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.absolute:nth-child(8){
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+.absolute:nth-child(9){
+    right: 0;
+    bottom: 0;
+}
+.innerbox{
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    position: absolute;
+}
+.innerbox2{
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+.innerbox3{
+    top: 0;
+    right: 0;
+}
+.innerbox4{
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+.innerbox5{
+    inset: 0;
+    margin: auto;
+}
+.innerbox6{
+    top: 0;
+    right:0;
+    bottom: 0;
+    margin: auto;
+}
+.innerbox7{
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+.innerbox8{
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+.innerbox9{
+    bottom: 0;
+    right: 0;
+}
