@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* height: 100vh; */
+}
+.image{
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    overflow: scroll;
+    overflow: visible;
+    /* overflow: auto;   */
+}
+
+.transition{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+
+  }
+.main:hover .transition{
+    transform: translate(200px 300px);
+    width: 200px;
+    background-color: green;
+    transform: translate(500px); 
+    transform: translateY(200px);
+    transform: scale(3);
+    transform: scaleX(3); 
+    transform: scaleY(3); 
+}
+.para{
+    animation: text-flicker-in-glow 4s linear both;
+	animation: text-flicker-in-glow 4s linear both;
+}
