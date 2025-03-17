@@ -1,0 +1,34 @@
+@media (max-width:1400px) {}
+
+@media (max-width:1200px) {}
+
+@media (max-width:992px) {
+
+  header {
+    width: 100%;
+  }
+ 
+
+  /* .first h1{
+    width: 450px;
+  }
+  .second p{
+    width: 400px;
+  } */
+  .navlinks .icons .mobilemenu{
+    display: block;
+  }
+  .navlinks li {
+    display: none;
+  }
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:576px) {
+    
+}
+
+
